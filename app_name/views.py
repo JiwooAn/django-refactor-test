@@ -18,5 +18,12 @@ def main(request):
     setattr(check2, col_name, "afadsfasd")
     check2.save()
     
-    return HttpResponse("성공!")
-    
+    return HttpResponse("update data 성공!")
+
+
+def style(request):
+    num = 10
+    str_num = str(num)
+    print(str_num.zfill(2))
+
+    return HttpResponse("zfill 성공!")

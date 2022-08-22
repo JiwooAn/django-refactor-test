@@ -9,4 +9,5 @@ from .views import *
 
 urlpatterns = [
     path('', main, name='main'),
+    path('style/', style, name='style'),
 ]
